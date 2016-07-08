@@ -7,6 +7,7 @@ namespace cameraTest
         public cameraPage()
         {
             InitializeComponent();
+            this.BindingContext = new CameraViewModel();
         }
     }
 }
